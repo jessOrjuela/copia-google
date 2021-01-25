@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+ header nav .seccion-navegacion{
+     width: 250px;
+     height: auto;
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+}
+header nav .seccion-navegacion .gmail:hover{
+    text-decoration: underline;
+}
+
+header nav .seccion-navegacion .imagenes:hover{
+    text-decoration: underline;
+}
+
+nav .seccion-navegacion a{
+    margin-right: 10px;
+    color: #000000;
+}
+nav .seccion-navegacion .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+    
+}
+nav .seccion-navegacion .menu-icon:hover{
+    opacity: initial;
+}
+
+nav .seccion-navegacion img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+main{
+    margin-top: 150px;
+    text-align: center;   
+}
+main .contenedor-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .contenedor-logo img{
+    width: 272px;
+    height: 92px;
+}
+
+main .contenedor-principal{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .contenedor-busqueda {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .contenedor-principal input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .contenedor-busqueda:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .contenedor-principal .icono-busqueda{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    opacity: 0.5;
+    margin-right: 10px;
+}
+main .contenedor-principal .icono-micro{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;  
+}
+main .contenedor-botones{
+    width: 530px;
+    margin: 0 auto;
+}
+main .contenedor-botones div{
+    display: inline-block;
+}
+main .contenedor-botones button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    outline: none;
+    margin-right:15px;
+}
+main .contenedor-botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px  rgba(0,0,0,.1);
+    color: #202124;
+    
+}
+footer{
+    width:  100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+footer ul{
+    margin: 10px;
+    list-style: none ;
+    display: flex;
+    padding-left: 0 ;
+    
+}
+
+footer .footer-derecho{
+    justify-self: right;
+}
+footer .footer-izquierdo{
+    justify-self: left;
+
+}
+footer ul li a{
+    margin: 10px;
+    color: #70757a;
+    font-size: 14px;
+}
